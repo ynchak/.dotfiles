@@ -1,0 +1,7 @@
+[user]
+	name = Yevhen Yanchak
+	email = yanchakevgeniy@gmail.com
+[pull]
+	ff = only
+[init]
+	defaultBranch = master
