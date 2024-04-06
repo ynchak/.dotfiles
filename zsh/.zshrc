@@ -13,6 +13,10 @@ if [ -x /usr/bin/dircolors ]; then
     #alias egrep='egrep --color=auto'
 fi
 
+# gopath
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 # volta varible
 export VOLTA_HOME=$HOME/.volta
 export PATH="$VOLTA_HOME/bin:$PATH"
