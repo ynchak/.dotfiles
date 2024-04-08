@@ -17,7 +17,7 @@ nix-env -iA \
 # stow dotfiles
 stow git
 stow zsh
-# stow starship
+stow starship
 
 # add zsh as a login shell
 command -v zsh | sudo tee -a /etc/shells

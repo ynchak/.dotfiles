@@ -51,7 +51,7 @@ if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile
 
 
 # STARSHIP_CONFIG environment variable
-export STARSHIP_CONFIG=~/starship/starship.toml
+export STARSHIP_CONFIG=~/starship.toml
 
 # run starship
 eval "$(starship init zsh)"
