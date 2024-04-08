@@ -13,7 +13,7 @@ nix-env -iA \
 	nixpkgs.gcc \
 	nixpkgs.starship \
 	nixpkgs.volta \
-
+	nixpkgs.go \
 # stow dotfiles
 stow git
 stow zsh
