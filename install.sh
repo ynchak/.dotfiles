@@ -7,7 +7,6 @@ curl -L https://nixos.org/nix/install | sh
 # install packages
 nix-env -iA \
 	nixpkgs.zsh \
-	nixpkgs.git \
 	nixpkgs.stow \
 	nixpkgs.bat \
 	nixpkgs.gnumake \
