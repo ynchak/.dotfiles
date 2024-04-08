@@ -23,4 +23,4 @@ stow zsh
 command -v zsh | sudo tee -a /etc/shells
 
 # use zsh as default shell
-sudo chsh -s $(which zsh)
+sudo chsh -s $(which zsh) $USER
