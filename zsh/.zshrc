@@ -47,7 +47,7 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 
 
 # nix
-if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
+# if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
 
 
 # STARSHIP_CONFIG environment variable
