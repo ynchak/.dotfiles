@@ -13,6 +13,9 @@ if [ -x /usr/bin/dircolors ]; then
     #alias egrep='egrep --color=auto'
 fi
 
+#helix alias to hx
+alias hx="/usr/bin/helix"
+
 # gopath
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
