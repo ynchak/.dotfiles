@@ -47,7 +47,7 @@ source "${ZINIT_HOME}/zinit.zsh"
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 zinit light zdharma-continuum/fast-syntax-highlighting
-
+zinit light reobin/typewritten
 
 # nix
 # if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
@@ -57,5 +57,8 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 export STARSHIP_CONFIG=~/.starship.toml
 
 # run starship
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 
+# typewritten settings
+TYPEWRITTEN_PROMPT_LAYOUT="pure"
+TYPEWRITTEN_CURSOR="terminal"
