@@ -15,12 +15,12 @@
 #	nixpkgs.volta \
 #	nixpkgs.go \
 sudo pacman -Suy
-sudo pacman -S zsh stow bat make gcc starship go 
+sudo pacman -S zsh stow bat make gcc gopls go helix 
 curl https://get.volta.sh | bash
 # stow dotfiles
 stow git
 stow zsh
-stow starship
+# stow starship
 
 # add zsh as a login shell
 command -v zsh | sudo tee -a /etc/shells
