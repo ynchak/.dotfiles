@@ -2,7 +2,7 @@
 
 echo "Start instaling packages...\n"
 
-install packages
+# install packages
 nix-env -iA \
 	nixpkgs.zsh \
 	nixpkgs.stow \
