@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Start instaling packages...\n"
+echo "Start instaling packages..."
 
 # install packages
 nix-env -iA \
@@ -13,9 +13,9 @@ nix-env -iA \
 	nixpkgs.volta \
 	nixpkgs.go \
 
-echo "Packages are installed\n"
+echo "Packages are installed"
 # stow dotfiles
-echo "Stow dotfiles\n"
+echo "Stow dotfiles"
 stow git
 stow zsh
 stow starship
