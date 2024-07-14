@@ -12,6 +12,7 @@ nix-env -iA \
 	nixpkgs.starship \
 	nixpkgs.volta \
 	nixpkgs.go \
+	nixos.helix
 
 echo "Packages are installed"
 # stow dotfiles
